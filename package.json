@@ -14,5 +14,8 @@
     "backend"
   ],
   "author": "Roshan Tiwari",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
