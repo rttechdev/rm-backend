@@ -1,5 +1,6 @@
 //require("dotenv").config({path: "./.env"});
 import dotenv from "dotenv";
+import { app } from "./app.js";
 
 import connectToDatabase from "./db/index.js";
 

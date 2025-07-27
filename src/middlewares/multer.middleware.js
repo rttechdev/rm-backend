@@ -11,5 +11,5 @@ const storage = multer.diskStorage({
   },
 });
 
-const upload = multer({ storage: storage });
-export const multerMiddleware = upload.single("file"); // Use 'file' as the field name for the uploaded file
+export const upload = multer({ storage: storage });
+//export const multerMiddleware = upload.single("file"); // Use 'file' as the field name for the uploaded file
